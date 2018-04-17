@@ -1,8 +1,6 @@
 #include <iostream>
-
+#include <windows.h>
 int main(){
-    std::cout << "This is our final project\n"
-            "Taylor Hartwell, Zachary Huston\n"
-            "Stefan Papakastopolous, John Ross\n";
+    MessageBox (0, "This is our project.\n\nTaylor Hartwell, Zachary Huston\nStefan Papakastopolous, John Ross","BSIT Project",0 );
     return 0;
 }
